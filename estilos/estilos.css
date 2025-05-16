@@ -4,7 +4,7 @@
 }
 #inicio{
     width:100vw;
-    height: 25vh;
+    height: 75vh;
     background-image: url(./img/imajen_principal.jpeg);
     background-size: 100vw;
     font-size: 1rem;
@@ -92,4 +92,14 @@ a{
 #contacto{
     align-self: center;
     align-items: end;
+}
+
+@media(max-width=750px){
+    #inicio{
+        width:100vw;
+        height: 75vh;
+        background-image: url(./img/imajen_principal.jpeg);
+        background-size: 100vw;
+        font-size: 1rem;
+    }
 }
