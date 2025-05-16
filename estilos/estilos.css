@@ -1,8 +1,95 @@
-
-@media (max-width: 768px) {
-
+:root{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#inicio{
+    width:100vw;
+    height: 25vh;
+    background-image: url(./img/imajen_principal.jpeg);
+    background-size: 100vw;
+    font-size: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 0.9rem ;
+}
+h1{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.85rem;
+}
+small{
+    font-size: 0.5rem;
 }
 
-@media (min-width: 768px) {
+ul{
+    list-style: none;
+    display: flex;
+    padding: 2px;
+    pad: 2px;
+}
+
+a{
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 0.8rem;
+}
+
+.logo{
+    width: 100px;
+    height: 25px;
+    margin-right: 50vw;
+}
+
+.container>img{
+    width: 33vw;
+    height: 150px;
     
+}
+
+.container{
+    margin-right: 5px;
+    border-style: groove;
+}
+
+#servicios{
+    display: flex;
+    width: 30vw;
+    height: 40vh;
+}
+
+#mision , #vision{
+    width: 50vw;
+    height: auto;
+}
+
+#nosotros{
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+
+#contactar{
+    display: flex;
+}
+
+#contacto>img{
+    width: 20px;
+}
+
+#mapa{
+    margin-right: 1vw;
+    margin-left: 20vw;
+}
+#mapa>img{
+    width: 50vw;
+    height: auto;
+}
+
+#contacto{
+    align-self: center;
+    align-items: end;
 }
